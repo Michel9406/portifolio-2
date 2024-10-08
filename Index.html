@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div id="inicio" class="background">
+        <nav>
+            <div class="logo">
+                <span>Portfolio</span>
+                <span>Portfolio</span>
+            </div>
+            <ul class="cabeçalho-link">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="loader">
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+            </div>
+
+        </nav>
+
+        <div class="Main">
+            <h4>Ola, meu nome é</h4>
+            <h1>Michel<span>Gonçalves</span></h1>
+            <h3>Eu sou um desenvolvedor Full Stack</h3>
+            <div class="Container-btn">
+                <form>
+                    <input type="email" nome="email" id="mail" placeholder="Envie seu Email">
+                    <input type="submit" name="submit" value="Começar">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <section id="sobre" class="background-color-Sobre">
+        <div class="main-sobre">
+            <img src="michel 3.jpeg" alt="Michel Gonçalves">
+            <div class="Text-sobre">
+                <h2>Sobre-Mim</h2>
+                <h5>Desenvolvedor <span>& Full-Stack </span></h5>
+                <p>Desenvolvedor Full Stack Cursando segundo semestre de Analise desenvolvimento de sistemas, atualmente
+                    participo do bootcamp da Generation, onde tenho a oportunidade de trabalhar em projetos
+                    práticos, aplicar meus conhecimentos em
+                    Java, React, MySQL, Spring Boot, TypeScript, Node.js, JavaScript, HTML e CSS. Essa experiência
+                    me ensinou a importância da qualidade do código e boas práticas de desenvolvimento.Antes de me
+                    dedicar à tecnologia, tive experiências na área de marketing,executei diversas tarefas cruciais
+                    para o sucesso de projetos digitais de E-commerce. como Configuração de tags e eventos para Google
+                    Analytics, Comunicação direta com clientes para entender e resolver suas necessidades técnicas.
+                </p>
+                <button type="button">Ler Mais</button>
+            </div>
+        </div>
+    </section>
+
+    <div id="habilidades" class="Container-serviços">
+        <div class="title">
+            <h2>Habilidades</h2>
+        </div>
+
+        <div class="Caixa">
+            <div class="Card">
+                <i class="fas fa-bars"></i>
+                <h5>Hard Skills</h5>
+                <div class="Paragrafo-button">
+                    <p> • Java | React | TypeScript | MySQL | Spring Boot | Node.js | HTML | CSS | JavaScript | Git
+                        |Github
+                        Scrum | Kanban | Google analytics | Jira | </p>
+                    <button type="button">Ler Mais</button>
+                </div>
+            </div>
+
+            <div class="Card">
+                <i class="fas fa-user"></i>
+                <h5>Soft Skills</h5>
+                <div class="Paragrafo-button">
+                    <p>Proatividade: Capacidade de tomar iniciativas e resolver problemas de forma autônoma.
+                        Comunicação: Habilidade em transmitir ideias claramente e colaborar eficazmente com equipes.
+                        Persistência:</p>
+                    <button class="button" id="myBtn">Ler Mais</button>
+
+                    <!-- O Modal -->
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p> Determinação para superar desafios e buscar soluções, mesmo diante de obstáculos.
+                                Metodologia Ágil: Experiência em trabalhar com metodologias ágeis, adaptando-se
+                                rapidamente a
+                                mudanças.
+                                Resolução de Problemas: Competência em analisar situações complexas e desenvolver
+                                soluções
+                                criativas.
+                                Atenção aos Detalhes: Cuidado minucioso para garantir precisão e qualidade no trabalho.
+                                Trabalho em Equipe: Facilidade para colaborar e contribuir para um ambiente de trabalho
+                                harmonioso e produtivo.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="Card">
+                <i class="fas fa-bell"></i>
+                <h5>Projetos</h5>
+                <div class="Paragrafo-button">
+                    <li><a href="https://github.com/grupo-06-generation">Zurah</a></li>
+                    <li><a href="https://github.com/Michel9406/Blog-Pessoal">Blog-Pessoal/a></li>
+                    <li><a href="https://github.com/Michel9406/CRUD-Farmacia">Crud-Farmacia</a></li>
+                    <li><a href="https://github.com/Michel9406/Conta-bancaria">Banco M7</a></li>
+                    <li><a href="https://portfolio-two-lime-23.vercel.app/">1ºProtfolio</a></li>
+
+                    <button type="button">Ler Mais</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contato" class="me-contate">
+        <p>Contate-me para criar um bonito site para você</p>
+        <a class="button" href="https://w.app/micheldev" target="_blank">Enviar mensagem</a>
+    </div>
+
+    <section id="projetos">
+        <!-- Conteúdo da seção de projetos -->
+    </section>
+
+    <footer>
+        <h6>Contatos</h6>
+        <div class="Redes-sociais">
+            <a href="https://www.linkedin.com/in/michelgon%C3%A7alvess/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Michel9406"><i class="fab fa-github"></i></a>
+            <a href="https://discord.com/channels/1240097010317525016"><i class="fab fa-discord"></i></a>
+        </div>
+        <p>&copy; CopyRight By Michel Gonçalves</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('nav a, .button').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                if (this.getAttribute('href').startsWith('#')) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+
+    <script>
+        // Pegar o modal
+        var modal = document.getElementById("myModal");
+
+        // Pegar o botão que abre o modal
+        var btn = document.getElementById("myBtn");
+
+        // Pegar o elemento <span> que fecha o modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // Quando o usuário clicar no botão, abrir o modal
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // Quando o usuário clicar em <span> (x), fechar o modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // Quando o usuário clicar em qualquer lugar fora do modal, fechar o modal
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
